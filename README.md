@@ -18,7 +18,7 @@
 <h6 align="center">Table of Contents</h6>
 <p align="center">
     <a href="#overview">Overview</a> •
-    <a href="#issues-and-bugs">Issues and Bugs</a>
+    <a href="#issues-and-bugs">Issues and Bugs</a> •
     <a href="#contributing">Contributing</a>
 </p>
 
