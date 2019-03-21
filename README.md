@@ -11,8 +11,8 @@
 <h4 align="center">Connecting Wynncraft's Services with the Community</h4>
 
 <p align="center">
-    <a href="https://docs.wynncraft.com/">Documentation</a> •
-    <a href="https://discord.gg/nUFD9xX">Discord Server</a>
+    <a href="https://docs.wynncraft.com/" target="_blank">Documentation</a> •
+    <a href="https://discord.gg/nUFD9xX" target="_blank">Discord Server</a>
 </p>
 
 <h6 align="center">Table of Contents</h6>
