@@ -1,0 +1,30 @@
+{
+    "title": "Wynncraft Public API Official Documentation",
+    "description": "In this documentation booklet you will find information on what our API service is, how to use it, its limits, and some examples using it. In addition, you will find legacy and v2 documentation, and how to migrate to v2 of the API.",
+    "author": "colin350",
+    "plugins": ["favicon-custom", "insert-logo-link-style", "theme-api"],
+    "pluginsConfig": {
+        "favicon": "./img/favicon.png",
+        "appleTouchIconPrecomposed152": "./img/appTIP152.png",
+        "insert-logo-link-style": {
+            "src": "https://cdn.wynncraft.com/img/logo.png",
+            "style": "background: none; width:50%;",
+            "link": "https://wynncraft.com/",
+            "target": "_blank"
+        },
+        "theme-api": {
+            "languages": [
+                {
+                    "lang": "v2",
+                    "name": "Version 2",
+                    "default": true
+                },
+                {
+                    "lang": "v1",
+                    "name": "Legacy"
+                }
+            ],
+            "split": true
+        }
+    }
+}

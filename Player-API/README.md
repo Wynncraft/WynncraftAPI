@@ -1,0 +1,2 @@
+# Wynncraft Player API
+

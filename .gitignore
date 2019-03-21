@@ -1,0 +1,8 @@
+# Node 
+node_modules/
+
+# Macintosh
+.DS_Store
+
+# Gitbook generated files
+_book/
