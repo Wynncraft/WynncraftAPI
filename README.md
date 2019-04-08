@@ -23,7 +23,7 @@
 </p>
 
 ## Overview
-This repository serves as both an issue tracker and as a reference for anyone using Wynncraft's Public API service. This repository is not for other Wynncraft related items.
+This repository serves as both an issue tracker and as a reference for anyone using Wynncraft's Public API service. This repository is **not** for other Wynncraft related items.
 
 ## Issues and Bugs
 Do not discuss / share any vulnerabilities or bugs that can be used to exploit the API or our platforms. Instead, please private message Colin#0670 on discord or colin350 on the forums. 
@@ -36,7 +36,7 @@ The Wynncraft Team has decided to make the Official Public API Documentation a c
 To contribute to the Documentation, you will need a few things:
 1. You will need the latest version of Node.js and NPM installed on your system. You can get node.js and npm together on their website.
 
-2. You will need to globally install gitbook-cli via NPM, as the documentation platform is built on top of gitbook. To install gitbook-cli, you will run something like this: `$ npm install -g gitbook-cli`
+2. You will need to globally install gitbook-cli via NPM, as the documentation platform is built on top of gitbook. To install gitbook-cli, you will run something like this: `$ npm install -g gitbook-cli`. We depend on gitbook 3. If a new version is released, do not upgrade until this README is updated.
 
 3. You will need to fork this repository and clone it to your system.
 
