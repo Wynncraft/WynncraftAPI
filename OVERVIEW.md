@@ -16,7 +16,7 @@ You will also notice that the layouts are now split. On the left side will show 
 ### Rate Limit
 We use IP based rate-limiting for each of our resources. It is different for Legacy and Version 2. 
 {% sample lang="v2" %}
-Our rate-limit is dependent on each resource. View the Rate-Limit section of each resource documentation will give you further information.
+Our rate-limit is dependent on each resource. View the Rate-Limit section of each resource documentation for further information.
 
 {% sample lang="v1" %}
 Our rate-limit is 1200 requests per 20 minutes per IP. If significant usage of our API results in signficant performance defecit, the rate-limit may be lowered. 
@@ -26,4 +26,7 @@ We do not support higher rate-limits.
 {% endmethod %}
 
 ### API & Documentation Bug Reports
-Help us squash API & documentation related bugs by reporting them on our [bug report tracker](http://wynncraft.com/report-bug). 
+Help us squash API & documentation related bugs by reporting them on our [issue tracker](https://github.com/Wynncraft/WynncraftAPI/issues). 
+
+### Contribute to our Documentation
+Help us document Wynncraft's API Services by contributing [here](https://github.com/Wynncraft/WynncraftAPI).

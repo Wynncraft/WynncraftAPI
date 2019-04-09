@@ -29,7 +29,7 @@ Unless otherwise specified, unknown requests will return a status 404 error:
 }
 ```
 
-See [Errors](errors/README.md) for more information on response and error codes.
+See [Errors]() for more information on response and error codes.
 
 {% sample lang="v1" %}
 #### Legacy Request URI
@@ -46,14 +46,14 @@ Unless otherwise specified, unknown requests will return a status 404 error:
 }
 ```
 
-See [Errors](errors/README.md) for more information on response and error codes.
+See [Errors]() for more information on response and error codes.
 
 {% endmethod %}
 {% method %}
 ## Response Semantics
 Each response will have a generic field or set of fields pertaining to the request.
 
-See [Errors](errors/README.md) for more information on error codes and messages.
+See [Errors]() for more information on error codes and messages.
 
 {% sample lang="v2" %}
 #### V2 Response Semantics

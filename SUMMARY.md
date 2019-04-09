@@ -5,6 +5,7 @@
 - [Introduction](OVERVIEW.md)
 - [Getting Started](Overview/STARTED.md)
 - [Changelog](Overview/CHANGELOG.md)
+- [Errors]()
 
 ## Resources
 
@@ -29,3 +30,4 @@
     - [List](Territory-API/README.md#list)
 
 ## Guides
+- [Coming Soon!]()
