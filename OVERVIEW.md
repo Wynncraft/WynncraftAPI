@@ -12,10 +12,18 @@ You will notice in the top right two buttons: "Version 2" and "Legacy". These si
 
 You will also notice that the layouts are now split. On the left side will show the common information shared between both API versions, and the right side will show the differing information between the two.
 
+{% method %}
 ### Rate Limit
-Our rate-limit is 250 requests per 10 minutes per IP. If significant usage of our API results in signficant performance defecit, the rate-limit may be lowered. 
+We use IP based rate-limiting for each of our resources. It is different for Legacy and Version 2. 
+{% sample lang="v2" %}
+Our rate-limit is dependent on each resource. View the Rate-Limit section of each resource documentation will give you further information.
 
-We do not support high rate-limits for specific IPs at this time, but perhaps in the future!
+{% sample lang="v1" %}
+Our rate-limit is 1200 requests per 20 minutes per IP. If significant usage of our API results in signficant performance defecit, the rate-limit may be lowered. 
+
+We do not support higher rate-limits.
+
+{% endmethod %}
 
 ### API & Documentation Bug Reports
 Help us squash API & documentation related bugs by reporting them on our [bug report tracker](http://wynncraft.com/report-bug). 

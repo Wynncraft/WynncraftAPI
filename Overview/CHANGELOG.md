@@ -1,4 +1,4 @@
 # Change Log
 
-###### March 2019
-V2 API support added to the documentation. Documentation got a fresh re-write and a new look!
+###### April 8 2019
+Documentation got a fresh re-write and a new look! Occasional v2 API documentation added (particularly player stats). Retained Legacy API

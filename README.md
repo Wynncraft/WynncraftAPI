@@ -25,10 +25,12 @@
 ## Overview
 This repository serves as both an issue tracker and as a reference for anyone using Wynncraft's Public API service. This repository is **not** for other Wynncraft related items.
 
-## Issues and Bugs
+## Features, Issues, and Bugs
 Do not discuss / share any vulnerabilities or bugs that can be used to exploit the API or our platforms. Instead, please private message Colin#0670 on discord or colin350 on the forums. 
 
 If you would like to make an issue regarding the API or its documentation, please open an issue [here](https://github.com/Wynncraft/WynncraftAPI/issues).
+
+If you would like to suggest a feature to the API or its documentation, please open an issue [here](https://github.com/Wynncraft/WynncraftAPI/issues). Please prefix the title of the issue with `Request:`.
 
 ## Contributing
 The Wynncraft Team has decided to make the Official Public API Documentation a community effort, as well as put a foot forward towards developing an ecosystem that is built off of our API service. We hope in the future language specific libraries and wrappers are built around our API service, and more creative tools created by the community are to come! 
