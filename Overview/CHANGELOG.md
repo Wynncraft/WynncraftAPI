@@ -1,6 +1,9 @@
 # Change Log
 
 ###### April 19 2019
+Player-API version 2.0.3:
+* Fix responses not including status code header.
+
 Player-API version 2.0.2:
 * Player lookups are now case insensitive!
 * Non 200 http code requests still return the data field, though, the field is an empty array.
