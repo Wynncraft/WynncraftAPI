@@ -42,7 +42,7 @@ you can replace spaces with an underscore `_` to fix this.
 | identifications | Object | Ingredient Identifications minimum and maximum |List Below|
 | itemOnlyIDs | Object | Durability modifier and elemental requirements ||
 | consumable<br>OnlyIDs | Object | Durations and charges ||
-| ingredient<br>PositionModifiers | Object | Position modifier information ||
+| ingredient<br>PositionModifiers | Object | Position modifier information |||
 
 #### Valid Identifications
 The following are all current identifications: `AIRDEFENSE`, `EARTHDEFENSE`, `FIREDEFENSE`, `THUNDERDEFENSE`, `WATERDEFENSE`, `DAMAGEBONUS`, `DAMAGEBONUSRAW`, `AIRDAMAGEBONUS`, `EARTHDAMAGEBONUS`, `FIREDAMAGEBONUS`, `THUNDERDAMAGEBONUS`, `WATERDAMAGEBONUS`, `AGILITYPOINTS`, `DEFENSEPOINTS`, `DEXTERITYPOINTS`, `INTELLIGENCEPOINTS`, `STRENGTHPOINTS`, `POISON`, `MANASTEAL`, `MANAREGEN`, `SPEED`, `HEALTHBONUS`, `SPELLDAMAGE`, `SPELLDAMAGERAW`, `ATTACKSPEED`, `LIFESTEAL`, `HEALTHREGEN`, `HEALTHREGENRAW`, `REFLECTION`, `THORNS`, `EXPLODING`, `LOOTBONUS`, `XPBONUS`, `EMERALDSTEALING`, and `SOULPOINTS`.
