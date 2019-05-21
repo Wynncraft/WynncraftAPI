@@ -39,10 +39,13 @@ you can replace spaces with an underscore `_` to fix this.
 | level | Number | Ingredient Level ||
 | skills | Array  | Skills associated with ingredient ||
 | sprite | Object | Ingredient sprite id and damage ||
-| identifications | Object | Ingredient Identifications min and maximum ||
+| identifications | Object | Ingredient Identifications minimum and maximum |List Below|
 | itemOnlyIDs | Object | Durability modifier and elemental requirements ||
 | consumable<br>OnlyIDs | Object | Durations and charges ||
 | ingredient<br>PositionModifiers | Object | Position modifier information ||
+
+#### Valid Identifications
+The following are all current identifications: `AIRDEFENSE`, `EARTHDEFENSE`, `FIREDEFENSE`, `THUNDERDEFENSE`, `WATERDEFENSE`, `DAMAGEBONUS`, `DAMAGEBONUSRAW`, `AIRDAMAGEBONUS`, `EARTHDAMAGEBONUS`, `FIREDAMAGEBONUS`, `THUNDERDAMAGEBONUS`, `WATERDAMAGEBONUS`, `AGILITYPOINTS`, `DEFENSEPOINTS`, `DEXTERITYPOINTS`, `INTELLIGENCEPOINTS`, `STRENGTHPOINTS`, `POISON`, `MANASTEAL`, `MANAREGEN`, `SPEED`, `HEALTHBONUS`, `SPELLDAMAGE`, `SPELLDAMAGERAW`, `ATTACKSPEED`, `LIFESTEAL`, `HEALTHREGEN`, `HEALTHREGENRAW`, `REFLECTION`, `THORNS`, `EXPLODING`, `LOOTBONUS`, `XPBONUS`, `EMERALDSTEALING`, and `SOULPOINTS`.
 
 {% sample lang="v2" %}
 ```js
@@ -107,7 +110,7 @@ It is recommended to call this route once, and cache the results upon each ingre
 #### Response
 ```js
 {
-    "kind": "wynncraft/ingredient/get",
+    "kind": "wynncraft/ingredient/list",
     "code": Number,
     "message": String,
     "timestamp": Number,
@@ -131,7 +134,7 @@ Please read carefully.
 #### Response
 ```js
 {
-    "kind": "wynncraft/ingredient/get",
+    "kind": "wynncraft/ingredient/search",
     "code": Number,
     "message": String,
     "timestamp": Number,
@@ -145,14 +148,14 @@ Please read carefully.
 ### Search Queries
 | Query Name | Query Complexity |
 |:----------:|:----------------:|
-| name | <span style="color:orange">Simple</span>  |
+| name | <span style="color:green">Simple</span>  |
 | tier | <span style="color:green">Simple</span>  |
 | level | <span style="color:green">Simple</span>  |
 | skills | <span style="color:orange">Moderate</span> | 
-| sprite | <span style="color:orange">Complex</span>  | 
+| sprite | <span style="color:red">Complex</span>  | 
 | identifications | <span style="color:red">Complex</span>  |
 | itemOnlyIDs | <span style="color:red">Complex</span>  |
-| consumableOnlyIDs | <span style="color:orange">Complex</span> |
+| consumableOnlyIDs | <span style="color:red">Complex</span> |
 
 ### Simple Queries
 Simple queries perform simple pattern matching and display results. There is no conditionality.
@@ -361,7 +364,7 @@ whose properties (or `props`) of the sprite field are the specified value.
 #### Identifications Query
 {% method %}
 ```sh
-GET /ingredient/search/itemOnlyIDs/{symbol}{props}
+GET /ingredient/search/identifications/{symbol}{props}
 ```
 Will return a list of [Ingredient Object](#ingredient-object). This query searches for ingredients
 whose properties (or `props`) of the identifications field are the specified value.
@@ -379,7 +382,7 @@ whose properties (or `props`) of the identifications field are the specified val
 - `identificationName` is case insensitive and must be a valid identification name. Whitespace is not ignored.
 - `minimumVal` must either be a Number or empty. If a Number, the `minimum` for such identification must
 have that value. If empty, the `minimum` for such identification can be anything.
-- `maximumVal` must iether be a Number or empty. If a Number, the `maximum` for such identification must have that value. If empty, the `maximum` for such identification can be anything.
+- `maximumVal` must either be a Number or empty. If a Number, the `maximum` for such identification must have that value. If empty, the `maximum` for such identification can be anything.
 
 {% sample lang="v2" %}
 ```js
@@ -431,7 +434,7 @@ whose properties (or `props`) of the identifications field are the specified val
 | durability | `durability<Number>` |
 | strength   | `strength<Number>` |
 | dexterity  | `dexterity<Number>` |
-| intelligence  | `intellgence<Number>` |
+| intelligence  | `intelligence<Number>` |
 | defence  | `defence<Number>` |
 | agility  | `agility<Number>` |
 
