@@ -33,19 +33,19 @@ Guild information, such as: level, members, territories, xp, and more.
 | Field    | Type   | Description         | Options |
 |----------|--------|---------------------|---------|
 | name | String | Name of the guild ||
-| prefix | String | The guild prefix or tag ||
+| prefix | String | The guild's prefix or tag ||
 | [members](#guild-member-object) | Array of Objects | List of memebers of this guild ||
 | xp | Number | Percentage of guild XP required to get the next guild level ||
 | level | Number | Guild level ||
 | created | Date | Date that this guild was created | Date in ISO-8601 format with milliseconds |
 | createdFriendly | String | Date that the guild was created in a more human readable format |Example: `Jan 1st 2017`|
 | territories | Number | The amount of territories that the guild currently owns ||
-| [banner](#guild-banner-object) | Object | The banner of the guild |||
+| [banner](#guild-banner-object) | Object | (Optional) The banner of the guild |||
 
 ### Guild Member Object
 | Field    | Type   | Description         | Options |
 |----------|--------|---------------------|---------|
-| name | String | Username of the guild member ||
+| name | String | Minecraft username of the guild member ||
 | rank | String | Rank of this member within the guild |`RECRUIT`, `RECRUITER`, `CAPTAIN`, `CHIEF`, or `OWNER`|
 | contributed | Number | Amount of XP contributed to the guild ||
 | joined | Date | Date that this member joined the guild | Date in ISO-8601 format with milliseconds |
