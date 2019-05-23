@@ -6,7 +6,7 @@
 ```sh
 GET https://api.wynncraft.com/public_api.php?action=statsSearch&search={name}
 ```
-Returns a list of guild and player names which match the search query.
+Returns a list of guild and player names which contain the search query (case-insenitive).
 
 {% sample lang="v1" %}
 #### Response
