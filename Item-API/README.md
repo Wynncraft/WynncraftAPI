@@ -93,7 +93,7 @@ Returns a list of Wynncraft items matching the search name. The name is case ins
 | category | String | This item's category | `armor`, `weapon`, or `accessory` |
 
 #### Identifications
-All fields in the item object marked with '(Identification)' are identifications that are revealed when an item is identified. The values given by the API represent the 'base value' of that identification, when an item is actually identifed a random number is generated for each non-zero identification and is then multipled by that identification's base value. For identifications that have a positive base value, the random number can be between 0.3 and 1.3. For identifications that have a negative base value, the random number can be between 0.7 and 1.3. The result after multiplication is then rounded to the neared integer, with a maximum value of -1 for negative identifications and a minimum value of 1 for positive identifications.
+All fields in the item object marked with '(Identification)' are identifications that are revealed when an item is identified. The values given by the API represent the 'base value' of that identification, when an item is actually identified a random number is generated for each non-zero identification and is then multiplied by that identification's base value. For identifications that have a positive base value, the random number can be between 0.3 and 1.3. For identifications that have a negative base value, the random number can be between 0.7 and 1.3. The result after multiplication is then rounded to the nearest integer, with a maximum value of -1 for negative identifications and a minimum value of 1 for positive identifications.
 
 {% sample lang="v1" %}
 #### Response

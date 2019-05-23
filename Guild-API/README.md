@@ -34,7 +34,7 @@ Guild information, such as: level, members, territories, xp, and more.
 |----------|--------|---------------------|---------|
 | name | String | Name of the guild ||
 | prefix | String | The guild's prefix or tag ||
-| [members](#guild-member-object) | Array of Objects | List of memebers of this guild ||
+| [members](#guild-member-object) | Array of Objects | List of members of this guild ||
 | xp | Number | Percentage of guild XP required to get the next guild level ||
 | level | Number | Guild level ||
 | created | Date | Date that this guild was created | Date in ISO-8601 format with milliseconds |

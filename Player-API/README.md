@@ -36,7 +36,7 @@ Returns a [Player Object](#player-object), which details public statistical info
 | [meta](#meta-object) | Object | General Information ||
 | [classes](#classes-object) | Array of Objects | Holds all Classes ||
 | guild | Object | General Guild Information | Returns an object containing name and rank |
-| [global](#global-object) | Object | Culmulative Class Information ||
+| [global](#global-object) | Object | Cumulative Class Information ||
 | [ranking](#ranking-object) | Object | Ranking Information |&nbsp;|
 
 #### Meta Object
