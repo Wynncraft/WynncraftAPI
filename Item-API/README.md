@@ -181,7 +181,7 @@ All fields in the item object marked with '(Identification)' are identifications
 {% endmethod %}
 {% method %}
 #### Skin Object
-The skin field given in the [item object](#item-object) is a base-64 representation of a Json object; once decoded it follows the format of a response from Mojang's API. See the details [here](https://wiki.vg/Mojang_API#UUID_-.3E_Profile_.2B_Skin.2FCape). Note that some decoded object's will be missing the `timestamp`, `profileId`, and `profileName` fields, so you should not rely on these fields being present.
+The skin field given in the [item object](#item-object) is a base-64 encoded representation of a Json object; once decoded it follows the format of a response from Mojang's API. See the details [here](https://wiki.vg/Mojang_API#UUID_-.3E_Profile_.2B_Skin.2FCape). Note that some decoded object's will be missing the `timestamp`, `profileId`, and `profileName` fields, so you should not rely on these fields being present.
 
 {% sample lang="v1" %}
 ```js

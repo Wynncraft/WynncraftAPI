@@ -15,7 +15,7 @@ Returns a object, which contains many other objects. The key of each internal ob
 | guild | String | The name of the guild that currently holds the territory | `"Nobody"` if no guild owns it |
 | acquired | Date | The date and time the territory was acquired | Format: `YYYY-MM-DD HH:mm:ss`, 24-hour (00-23) |
 | attacker | String or null | The guild that is currently attacking the territory ||
-| [location](#territory-location-object) | Object | The start and end coordinates of the territory's area ||
+| [location](#territory-location-object) | Object | The start and end coordinates of the territory's area |||
 
 #### Territory Location Object
 | Field    | Type   | Description         |
