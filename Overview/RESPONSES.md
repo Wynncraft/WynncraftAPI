@@ -29,7 +29,10 @@ The rate limit for this API was exceeded by the client's IP. The client should d
 A 5xx response indicates an error processing the request by the server.
 
 ### 500 (Internal Server Error)
-This error indicates an unexpected error prevent the server from processing the request. If the error continues occurring for the same request it should be reported on the [issue tracker](https://github.com/Wynncraft/WynncraftAPI/issues); or if you believe the error is exploitable, or directly to Colin (Colin#0670 on discord, colin350 on the forums) if the issue is exploitable/poses a risk to the stability of the API.
+This error indicates an unexpected error prevent the server from processing the request. If this is a known error they may be a workaround outlined in the documentation, or on the issue tracker. If the error continues occurring for the same request it should be reported on the [issue tracker](https://github.com/Wynncraft/WynncraftAPI/issues); or if you believe the error is exploitable, or directly to Colin (Colin#0670 on discord, colin350 on the forums) if the issue is exploitable/poses a risk to the stability of the API.
+
+### 502 (Bad Gateway)
+This error indicates an internal error with the server, it should be treated the same as a 500 response.
 
 ### 503 (Service Unavailable)
 The server is currently unable to process requests with no specified reason. This status is generally temporary. The client should delay requests exponentially until they make a successful request.
