@@ -19,7 +19,7 @@ We use IP based rate-limiting for each of our resources. It is different for Leg
 Our rate-limit is dependent on each resource. View the Rate-Limit section of each resource documentation for further information.
 
 {% sample lang="v1" %}
-Our rate-limit is 1200 requests per 20 minutes per IP. If significant usage of our API results in signficant performance defecit, the rate-limit may be lowered. 
+Our rate-limit is 1200 requests per 20 minutes per IP. If significant usage of our API results in significant performance deficit, the rate-limit may be lowered. 
 
 We do not support higher rate-limits.
 
