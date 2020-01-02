@@ -7,9 +7,11 @@ The Rate Limit for the Player Resource is 750 requests per 30 minutes per IP.
 ------
 {% method %}
 ```sh
-GET /player/{username}/stats
+GET /player/{username or UUID}/stats
 ```
 Returns a [Player Object](#player-object), which details public statistical information about the player.
+
+**Note:** Requests by UUID must be in dashed form (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
 
 {% sample lang="v2" %}
 #### Response
@@ -180,6 +182,7 @@ Returns a [Player Object](#player-object), which details public statistical info
 | logins | Number | Number of Logins on Class ||
 | deaths | Number | Number of Deaths on Class ||
 | playtime | Number | Minutes played on Class ||
+| [gamemode](#gamemode-object) | Object | The challenge gamemodes that are enabled on this class ||
 | [skills](#skills-object) | Object | Class Skills Information ||
 | professions | Object | Class Professions Information | The object has a field for each profession, (including combat). Each profession field is an object with the level and xp information |
 | discoveries | Number | Discoveries discovered on Class ||
@@ -203,6 +206,13 @@ Returns a [Player Object](#player-object), which details public statistical info
 |-----------|----------------|---------------------------- |---------|
 | kills | Number         | Number of PvP Kills on Class||
 | deaths | Number         | Number of PvP Deaths on Class |&nbsp;|
+
+#### Gamemode Object
+| Field     | Type           | Description                 | Notes |
+|-----------|----------------|---------------------------- |---------|
+| craftsman | Boolean | Does this class have the craftsman challenge enabled ||
+| hardcore | Boolean | Does this class have the hardcode challenge enabled | True when turned on at creation regardless of if the challenge is failed or not |
+| ironman | Boolean | Does this class have the ironman challenge enabled |||
 
 #### Skills Object
 | Field     | Type           | Description                 | Options |
@@ -244,6 +254,11 @@ Returns a [Player Object](#player-object), which details public statistical info
     "logins": Number,
     "deaths": Number,
     "playtimes": Number,
+    "gamemode": {
+        "craftsman": Boolean,
+        "hardcore": Boolean,
+        "ironman": Boolean
+    },
     "skills": {
         "strength": Number,
         "dexterity": Number,

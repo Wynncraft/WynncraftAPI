@@ -29,7 +29,7 @@ Unless otherwise specified, unknown requests will return a status 404 error:
 }
 ```
 
-See [Errors]() for more information on response and error codes.
+See [Response codes](RESPONSES.md) for more information on response and error codes.
 
 {% sample lang="v1" %}
 #### Legacy Request URI

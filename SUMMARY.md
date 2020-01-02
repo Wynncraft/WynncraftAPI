@@ -5,7 +5,7 @@
 - [Introduction](OVERVIEW.md)
 - [Getting Started](Overview/STARTED.md)
 - [Changelog](Overview/CHANGELOG.md)
-- [Errors]()
+- [Response codes](Overview/RESPONSES.md)
 
 ## Resources
 
