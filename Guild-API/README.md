@@ -46,6 +46,7 @@ Guild information, such as: level, members, territories, xp, and more.
 | Field    | Type   | Description         | Options |
 |----------|--------|---------------------|---------|
 | name | String | Minecraft username of the guild member ||
+| uuid | String | The Minecraft UUID of the player ||
 | rank | String | Rank of this member within the guild |`RECRUIT`, `RECRUITER`, `CAPTAIN`, `CHIEF`, or `OWNER`|
 | contributed | Number | Amount of XP contributed to the guild ||
 | joined | Date | Date that this member joined the guild | Date in ISO-8601 format with milliseconds |
@@ -75,6 +76,7 @@ List of patterns: `CIRCLE_MIDDLE`, `SQUARE_BOTTOM_LEFT`, `SQUARE_BOTTOM_RIGHT`, 
     "members": [
         {
             "name": String,
+            "uuid": String,
             "rank": String,
             "contributed": Number,
             "joined": Date,
