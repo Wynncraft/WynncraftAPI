@@ -19,7 +19,7 @@ const https = require('https');
 https.get('https://api-legacy.wynncraft.com/public_api.php?action=onlinePlayers', (resp) => {
     let data = '';
 
-    // HTTPS receives the respone in chunks, a chunk of data has been recieved.
+    // HTTPS receives the response in chunks, a chunk of data has been recieved.
     resp.on('data', (chunk) => {
         data += chunk;
     });
