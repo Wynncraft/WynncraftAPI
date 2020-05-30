@@ -38,4 +38,6 @@
     - [List](Territory-API/README.md#list)
 
 ## Guides
-- [Coming Soon!]()
+- [Java](Guides/JAVA.md)
+- [Javascript (Node.js)](Guides/JAVASCRIPT.md)
+- [Python](Guides/PYTHON.md)
