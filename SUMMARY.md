@@ -39,4 +39,6 @@
 
 ## Guides
 - [Javascript (and Node.js)](Guides/JAVASCRIPT.md)
+  - [Manual requests](Guides/JAVASCRIPT.md#making-requests-manually)
+  - [Using wrappers](Guides/JAVASCRIPT.md#using-community-made-libraries)
 - [Python](Guides/PYTHON.md)

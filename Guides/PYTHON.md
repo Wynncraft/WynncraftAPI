@@ -4,7 +4,7 @@ A short guide how to use the Wynn API with Python3.
 
 **Note:** The libraries featured in the guides are not associated with Wynncraft or the Wynncraft API, please do not report bugs about them on Wynn forums or on the API Documentation's github repository.
 
-#### urllib - the built-in module
+#### urllib - The built-in module
 
 A demo showing how to request and use data from the API.
 
@@ -28,7 +28,7 @@ The documentation for the `territoryList` route can be seen [here](../Territory-
 
 #### Requests
 
-To install [Requests](https://pypi.org/project/requests/) run the command: 
+To install [Requests](https://pypi.org/project/requests/) run the command (you might have to use an admin/root user): 
 ```bash
 pip install requests
 ```

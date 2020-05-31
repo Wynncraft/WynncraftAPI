@@ -2,7 +2,12 @@
 
 A short guide how to use the Wynn API while using client-side javascript or Node.js.
 
+  - [Manual requests](Guides/JAVASCRIPT.md#making-requests-manually)
+  - [Using wrappers](Guides/JAVASCRIPT.md#using-community-made-libraries)
+
 **Note:** The libraries featured in the guides are not associated with Wynncraft or the Wynncraft API, please do not report bugs about them on Wynn forums or on the API Documentation's github repository.
+
+## Making requests manually
 
 #### HTTPS – The standard library (Node.js only)
 
@@ -88,9 +93,11 @@ async function run() {
 ```
 The documentation for the `territoryList` route can be seen [here](../Territory-API/README.md).
 
+## Using community made libraries
+
 #### Using the node-wynn library
 
-First, you want to install [node-wynn](https://github.com/Nitrogen2Oxygen/node-wynn)
+First, you want to install [node-wynn](https://github.com/Nitrogen2Oxygen/node-wynn):
 ```bash
 npm i node-wynn
 ```
