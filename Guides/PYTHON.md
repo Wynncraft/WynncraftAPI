@@ -6,6 +6,8 @@ A short guide how to use the Wynn API with Python3.
 
 #### urllib - the built-in module
 
+A demo showing how to request and use data from the API.
+
 ```py
 #import the library
 import urllib.request
@@ -22,12 +24,16 @@ json = json.loads(data)
 print(json['territories']['Detlas'])
 ```
 
+The documentation for the `territoryList` route can be seen [here](../Territory-API/README.md).
+
 #### Requests
 
 To install [Requests](https://pypi.org/project/requests/) run the command: 
 ```bash
 pip install requests
 ```
+
+A demo showing how to request and use data from the API.
 
 ```py
 #import the library
@@ -40,3 +46,5 @@ json = r.json()
 #Print the data
 print(json['territories']['Detlas'])
 ```
+
+The documentation for the `territoryList` route can be seen [here](../Territory-API/README.md).

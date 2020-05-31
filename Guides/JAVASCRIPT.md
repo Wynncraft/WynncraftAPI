@@ -4,8 +4,6 @@ A short guide how to use the Wynn API while using client-side javascript or Node
 
 **Note:** The libraries featured in the guides are not associated with Wynncraft or the Wynncraft API, please do not report bugs about them on Wynn forums or on the API Documentation's github repository.
 
-## Making requests manually
-
 #### HTTPS – The standard library (Node.js only)
 
 Using the `HTTPS` library to make a GET request: 
@@ -44,7 +42,7 @@ or
 ```bash
 yarn add axios
 ```
-or
+or (in the browser)
 ```html
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
@@ -89,8 +87,3 @@ async function run() {
 }
 ```
 The documentation for the `territoryList` route can be seen [here](../Territory-API/README.md).
-
-## Using community made libraries
-
-Coming soon!
-
