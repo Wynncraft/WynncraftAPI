@@ -87,3 +87,55 @@ async function run() {
 }
 ```
 The documentation for the `territoryList` route can be seen [here](../Territory-API/README.md).
+
+#### Using the node-wynn library
+
+First, you want to install [node-wynn](https://github.com/Nitrogen2Oxygen/node-wynn)
+```bash
+npm i node-wynn
+```
+or
+```bash
+yarn add node-wynn
+```
+
+Using the node-wynn library to get a player:
+```js
+// Load the package
+const nodeWynn = require("node-wynn");
+
+// Make the request
+nodeWynn.getPlayer("Salted")
+	.then(data => {
+		// Logs data on successful request
+		console.log(data)
+	})
+	.catch(err => {
+		// Logs error on failed request
+		console.error(err)
+	});
+```
+
+Or you can use async/await:
+```js
+// Load the package
+const nodeWynn = require("node-wynn");
+
+// Run the script
+run();
+
+async function run() {
+	try {
+		let res = await nodeWynn.getPlayer("Salted");
+		// Logs data on successful request
+		console.log(res)
+	} catch(err) {
+		// Logs error on failed request
+		console.error(err)
+	}
+}
+```
+
+The documentation for the `playerStats` route can be seen [here](../Player-API/README.md).
+
+
