@@ -1,13 +1,12 @@
-# Using the API with Node.js
+# Using the API with Node.js or in the browser
 
-A short guide how to use the Wynn API while using Node.js.
-The main parts of this guide: 
-* Making manual requests to the API (see [here](#making-requests-manually))
-* Using community made libraries (see [here](#using-community-made-libraries))
+A short guide how to use the Wynn API while using client-side javascript or Node.js.
+
+**Note:** The libraries featured in the guides are not associated with Wynncraft or the Wynncraft API, please do not report bugs about them on Wynn forums or on the API Documentation's github repository.
 
 ## Making requests manually
 
-#### HTTPS – The standard library
+#### HTTPS – The standard library (Node.js only)
 
 Using the `HTTPS` library to make a GET request: 
 
@@ -35,7 +34,7 @@ https.get('https://api-legacy.wynncraft.com/public_api.php?action=onlinePlayers'
 ```
 The documentation for the `onlinePlayers` route can be seen [here](../Network-API/README.md#server-list).
 
-#### Axios – A promise based client
+#### Axios – A promise based client (Node.js and browser support)
 
 Firstly, you have to install [Axios](https://www.npmjs.com/package/axios):
 ```bash
@@ -45,11 +44,17 @@ or
 ```bash
 yarn add axios
 ```
+or
+```html
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+```
+
+**Note:** While using Axios, you might get [CORS error](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors), this will result the request to fail.
 
 Using the `Axios` library to make a GET request: 
 
 ```js
-//Load the library
+//Load the library, this is only required in Node.js
 const axios = require('axios');
 
 //Make the request
@@ -64,7 +69,7 @@ axios.get('https://api-legacy.wynncraft.com/public_api.php?action=territoryList'
 
 Using `Axios` in asynchronous functions:
 ```js
-//Load the library
+//Load the library, this is only required in Node.js
 const axios = require('axios');
 
 //Run the script
@@ -86,3 +91,6 @@ async function run() {
 The documentation for the `territoryList` route can be seen [here](../Territory-API/README.md).
 
 ## Using community made libraries
+
+Coming soon!
+
