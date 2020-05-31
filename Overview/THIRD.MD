@@ -12,17 +12,19 @@ Below are some 3rd party libraries/wrappers to help you get started on making yo
 
 ### JavaScript
 
-- [WynnJS by DevChromium](https://github.com/DevChromium/WynnJS)
+- [node-wynn by Nitrogen2Oxygen](https://github.com/Nitrogen2Oxygen/node-wynn)
 
-- [Wynn.js by Hoi15A](https://github.com/Hoi15A/wynn.js)
+- [WynnJS by DevChromium](https://github.com/DevChromium/WynnJS) [OUTDATED]
 
-- [WynnCraft.js by FraWolf](https://github.com/FraWolf/WynnCraft.js)
+- [Wynn.js by Hoi15A](https://github.com/Hoi15A/wynn.js) [OUTDATED]
+
+- [WynnCraft.js by FraWolf](https://github.com/FraWolf/WynnCraft.js) [OUTDATED]
 
 ### Python
 
-- [Wynn.py by Zakru](https://github.com/Zakru/wynn.py)
+- [Wynn.py by Zakru](https://github.com/Zakru/wynn.py) [OUTDATED]
 
-- [Pynn by KashEight](https://github.com/KashEight/Pynn)
+- [Pynn by KashEight](https://github.com/KashEight/Pynn) [OUTDATED]
 
 ## Tools and Websites
 
