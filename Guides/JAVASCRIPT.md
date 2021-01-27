@@ -18,7 +18,7 @@ Using the `HTTPS` library to make a GET request:
 const https = require('https');
 
 //Make the request
-https.get('https://api-legacy.wynncraft.com/public_api.php?action=onlinePlayers', (resp) => {
+https.get('https://api.wynncraft.com/public_api.php?action=onlinePlayers', (resp) => {
     let data = '';
 
     // HTTPS receives the response in chunks, a chunk of data has been recieved.
@@ -61,7 +61,7 @@ Using the `Axios` library to make a GET request:
 const axios = require('axios');
 
 //Make the request
-axios.get('https://api-legacy.wynncraft.com/public_api.php?action=territoryList')
+axios.get('https://api.wynncraft.com/public_api.php?action=territoryList')
     .then(response => {
         console.log(response.data); //Print all the territory objects
     })
@@ -80,7 +80,7 @@ run();
 
 async function getTerritory(name) {
     //Make the request
-    let response = (await axios.get('https://api-legacy.wynncraft.com/public_api.php?action=territoryList')).data;
+    let response = (await axios.get('https://api.wynncraft.com/public_api.php?action=territoryList')).data;
     return response.territories[name];
 }
 

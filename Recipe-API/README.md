@@ -9,7 +9,7 @@ The Rate Limit for the Recipe Resource is 600 requests per 30 minutes per IP.
 ```sh
 GET /recipe/get/{name}
 ```
-Returns a [Recipe Object](#recipe-object), which details public statistical information about the recipe.
+Get all possbile names from [the recipe list api](#List). Returns a [Recipe Object](#recipe-object), which details public statistical information about the recipe.
 
 {% sample lang="v2" %}
 #### Response

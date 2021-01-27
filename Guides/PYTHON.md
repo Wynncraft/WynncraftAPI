@@ -13,7 +13,7 @@ A demo showing how to request and use data from the API.
 import urllib.request
 import json 
 
-url = 'https://api-legacy.wynncraft.com/public_api.php?action=territoryList'
+url = 'https://api.wynncraft.com/public_api.php?action=territoryList'
 #Make the request object
 f = urllib.request.urlopen(url)
 #Read the data from the request
@@ -40,7 +40,7 @@ A demo showing how to request and use data from the API.
 import requests
 
 #make the request
-r = requests.get('https://api-legacy.wynncraft.com/public_api.php?action=territoryList')
+r = requests.get('https://api.wynncraft.com/public_api.php?action=territoryList')
 #get the data
 json = r.json()
 #Print the data

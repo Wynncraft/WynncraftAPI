@@ -36,7 +36,7 @@ See [Response codes](RESPONSES.md) for more information on response and error co
 To access version 1 of the api (legacy), the base url will be: 
 
 ```bash
-GET https://api-legacy.wynncraft.com/public_api.php?
+GET https://api.wynncraft.com/public_api.php?
 ```
 
 Unless otherwise specified, unknown requests will return a status 404 error:

@@ -64,7 +64,7 @@ Returns a [Player Object](#player-object), which details public statistical info
 | Field     | Type           | Description                 | Options |
 |-----------|----------------|---------------------------- |---------|
 | display   | Boolean        | Is the tag displayed        ||
-| value     | String         | The player's tag            | HERO, VIP+, VIP |
+| value     | String         | The player's tag            | CHAMPION, HERO, VIP+, VIP |
 
 #### Global Object
 | Field     | Type   | Description         | Options |
@@ -182,12 +182,13 @@ Returns a [Player Object](#player-object), which details public statistical info
 | logins | Number | Number of Logins on Class ||
 | deaths | Number | Number of Deaths on Class ||
 | playtime | Number | Minutes played on Class ||
-| [gamemode](#gamemode-object) | Object | The challenge gamemodes that are enabled on this class ||
+| [game1ode](#gamemode-object) | Object | The challenge gamemodes that are enabled on this class ||
 | [skills](#skills-object) | Object | Class Skills Information ||
 | professions | Object | Class Professions Information | The object has a field for each profession, (including combat). Each profession field is an object with the level and xp information |
 | discoveries | Number | Discoveries discovered on Class ||
 | eventsWon   | Number | Swarms beaten ||
 | preEconomy-Update | Boolean | Class was created before  1.18 |&nbsp;|
+| raids | Object | Information about completed raids | Object has a field for all completed raid count called **completed** and has a **list** array which includes objects of each individual raids.
 
 #### Dungeons Object
 | Field     | Type           | Description                 | Options |
@@ -323,6 +324,10 @@ Returns a [Player Object](#player-object), which details public statistical info
     "discoveries": Number,
     "eventsWon": Number,
     "preEconomyUpdate": Number
+    "raids": {
+        "completed": Number,
+        "list": [Object]
+    }
 }
 ```
 

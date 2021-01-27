@@ -74,6 +74,8 @@ Returns a list of Wynncraft items matching the search name. The name is case ins
 | healthBonus | Number | (Identification) Health modifier |Unlike `health`, this is a identification, rather than being set|
 | soulPoints | Number | (Identification) Percentage chance to regenerate an additional soul point ||
 | emeraldStealing | Number | (Identification) Percentage bonus chance to steal an emerald on hit ||
+| gatherXpBonus | Number | (Identification) Percentage gather xp bonus ||
+| gatherSpeed | Number | (Identification) Percentage bonus to the gathering speed of profession nodes. ||
 | healthRegenRaw | Number | (Identification) Bonus to health regeneration ||
 | spellDamageRaw | Number | (Identification) Bonus to spell damage ||
 | damageBonusRaw | Number | (Identification) Bonus to melee damage ||
