@@ -6,6 +6,9 @@ The following are various 3rd party libraries and tools built by the community.
 
 Below are some 3rd party libraries/wrappers to help you get started on making your own app.
 
+### Go
+- [gowynn](https://gitlab.com/SonoMichele/gowynn)
+
 ### Java
 
 - [jWynn by Bedo9041](https://github.com/Bedo9041/jWynn)
@@ -37,6 +40,7 @@ Below are some 3rd party tools/websites utilising the Wynn API.
 - [Wynnstats](https://github.com/maple3142/WynnStats)
 - [mysupercutebot](https://github.com/UtopiaMinT/mysupercutebot)
 - [Moto-bot](https://github.com/motoki317/moto-bot)
+- [1.20 Territory and resource map](https://kristofbolyai.github.io/Territory-map/)
 
 ### Want your app here?
 
