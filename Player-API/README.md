@@ -258,7 +258,8 @@ Returns a [Player Object](#player-object), which details public statistical info
     "gamemode": {
         "craftsman": Boolean,
         "hardcore": Boolean,
-        "ironman": Boolean
+        "ironman": Boolean,
+        "hunted": Boolean
     },
     "skills": {
         "strength": Number,
