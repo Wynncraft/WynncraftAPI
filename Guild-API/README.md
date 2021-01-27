@@ -47,7 +47,7 @@ Guild information, such as: level, members, territories, xp, and more.
 |----------|--------|---------------------|---------|
 | name | String | Minecraft username of the guild member ||
 | uuid | String | The Minecraft UUID of the player ||
-| rank | String | Rank of this member within the guild |`RECRUIT`, `RECRUITER`, `CAPTAIN`, `CHIEF`, or `OWNER`|
+| rank | String | Rank of this member within the guild |`RECRUIT`, `RECRUITER`, `CAPTAIN`, `STRATEGIST`,`CHIEF`, or `OWNER`|
 | contributed | Number | Amount of XP contributed to the guild ||
 | joined | Date | Date that this member joined the guild | Date in ISO-8601 format with milliseconds |
 | joinedFriendly | String | Date that the member joined the guild in a more human readable format |Example: `Jan 1st 2017`|
