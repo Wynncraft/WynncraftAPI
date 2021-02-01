@@ -4,6 +4,7 @@
 
 - [Introduction](OVERVIEW.md)
 - [Getting Started](Overview/STARTED.md)
+- [API keys](Overview/APIKEY.md)
 - [Changelog](Overview/CHANGELOG.md)
 - [Response codes](Overview/RESPONSES.md)
 - [3rd Party Software](Overview/THIRD.md)

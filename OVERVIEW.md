@@ -16,13 +16,14 @@ You will also notice that the layouts are now split. On the left side will show 
 ### Rate Limit
 We use IP based rate-limiting for each of our resources. It is different for Legacy and Version 2. 
 {% sample lang="v2" %}
-Our rate-limit is dependent on each resource. View the Rate-Limit section of each resource documentation for further information.
+Our rate-limit is 1800 requests per 10 minutes per IP.
+
+If you have an application which uses the API frequently, please [apply](Overview/APIKEY.md) for an API key.
 
 {% sample lang="v1" %}
-Our rate-limit is 1200 requests per 20 minutes per IP. If significant usage of our API results in significant performance deficit, the rate-limit may be lowered. 
+Our rate-limit is 1800 requests per 10 minutes per IP. If significant usage of our API results in significant performance deficit, the rate-limit may be lowered. 
 
-We do not support higher rate-limits.
-
+If you have an application which uses the API frequently, please [apply](Overview/APIKEY.md) for an API key.
 {% endmethod %}
 
 ### API & Documentation Bug Reports

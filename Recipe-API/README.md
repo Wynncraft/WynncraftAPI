@@ -1,8 +1,5 @@
 # Wynncraft Recipe Resource
 
-## Rate-Limit
-The Rate Limit for the Recipe Resource is 600 requests per 30 minutes per IP. 
-
 ## Get
 ------
 {% method %}

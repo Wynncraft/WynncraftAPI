@@ -1,8 +1,5 @@
 # Wynncraft Ingredient Resource
 
-## Rate-Limit
-The Rate Limit for the Ingredient Resource is 600 requests per 30 minutes per IP. 
-
 ## Get
 ------
 {% method %}

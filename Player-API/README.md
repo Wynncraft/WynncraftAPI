@@ -1,8 +1,5 @@
 # Wynncraft Player Resource
 
-## Rate-Limit
-The Rate Limit for the Player Resource is 750 requests per 30 minutes per IP.
-
 ## Statistics
 ------
 {% method %}
