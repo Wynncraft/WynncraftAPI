@@ -179,7 +179,7 @@ Returns a [Player Object](#player-object), which details public statistical info
 | logins | Number | Number of Logins on Class ||
 | deaths | Number | Number of Deaths on Class ||
 | playtime | Number | Minutes played on Class ||
-| [game1ode](#gamemode-object) | Object | The challenge gamemodes that are enabled on this class ||
+| [gamemode](#gamemode-object) | Object | The challenge gamemodes that are enabled on this class ||
 | [skills](#skills-object) | Object | Class Skills Information ||
 | professions | Object | Class Professions Information | The object has a field for each profession, (including combat). Each profession field is an object with the level and xp information |
 | discoveries | Number | Discoveries discovered on Class ||
