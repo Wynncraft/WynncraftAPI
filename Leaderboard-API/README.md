@@ -20,6 +20,10 @@ Returns a leaderboard of guilds (represented as an array of [guild leaderboard o
 | territories | Number | The amount of territories currently owned by the guild ||
 | membersCount | Number | The amount of members in the guild ||
 | num | Number | The position of this guild in the leaderboard ||
+| warCount | Number | Number of wars the guild has done, including failed ones ||
+| badges | String Array | Returns a list of equipped badges ||
+| rewards | Object Array | Returns a list of unclaimed rewards by the guild ||
+
 
 {% sample lang="v1" %}
 #### Response
@@ -44,7 +48,19 @@ Returns a leaderboard of guilds (represented as an array of [guild leaderboard o
             }
             "territories": Number,
             "membersCount": Number,
-            "num": Number // Position number
+            "num": Number, // Position number
+            "warCount": Number,
+            "badges": [
+                // ... Equipped badges
+            ],
+            "rewards": [
+                {
+                    "acquired": String, //Date
+                    "amount": Number,
+                    "type": 'GUILD_TOMES' | 'EMERALDS'
+                },
+                // ...
+            ]
         },
         // ...
     ],

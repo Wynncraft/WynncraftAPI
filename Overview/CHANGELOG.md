@@ -1,5 +1,20 @@
 # Change Log
 
+###### April 4 2021
+Guild Leaderboard API: 
+
+Support for guild warcount, badges and rewards
+
+###### January 27 2021
+Recipe-API, Ingredient API, Player API v2.1.0:
+* Added support for 1.20 update:
+  * Player-API: `raids` object for each class displaying raid information
+  * Support for CHAMPION role
+* Ingredient API:
+  * Added support for new identifications
+* Guild API: displays STRATEGIST role 
+* Item API: includes new identifications and item statistics
+
 ###### June 26 2019
 Player-API v2.0.6:
 * Fixed issues when retrieving stats by UUID
