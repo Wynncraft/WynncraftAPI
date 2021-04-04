@@ -1,4 +1,10 @@
 # Change Log
+
+###### April 4 2021
+Guild Leaderboard API: 
+
+Support for guild warcount, badges and rewards
+
 ###### January 27 2021
 Recipe-API, Ingredient API, Player API v2.1.0:
 * Added support for 1.20 update:
