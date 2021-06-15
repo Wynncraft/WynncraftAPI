@@ -6,6 +6,10 @@ The following are various 3rd party libraries and tools built by the community.
 
 Below are some 3rd party libraries/wrappers to help you get started on making your own app.
 
+### GO
+
+- [gowynn by SonoMichele](https://gitlab.com/SonoMichele/gowynn)
+
 ### Java
 
 - [jWynn by Bedo9041](https://github.com/Bedo9041/jWynn)
@@ -21,6 +25,8 @@ Below are some 3rd party libraries/wrappers to help you get started on making yo
 - [WynnCraft.js by FraWolf](https://github.com/FraWolf/WynnCraft.js) [OUTDATED]
 
 ### Python
+
+- [wynncraft-python by martinkovacs](https://github.com/martinkovacs/wynncraft-python)
 
 - [Wynn.py by Zakru](https://github.com/Zakru/wynn.py) [OUTDATED]
 
