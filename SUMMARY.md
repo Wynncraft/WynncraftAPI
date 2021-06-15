@@ -43,3 +43,5 @@
   - [Manual requests](Guides/JAVASCRIPT.md#making-requests-manually)
   - [Using wrappers](Guides/JAVASCRIPT.md#using-community-made-libraries)
 - [Python](Guides/PYTHON.md)
+  - [Manual requests](Guides/PYTHON.md#making-requests-manually)
+  - [Using wrappers](Guides/PYTHON.md#using-community-made-libraries)
