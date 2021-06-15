@@ -287,6 +287,9 @@ Will return a list of [Ingredient Object](#ingredient-object).
 - `skill(s)` must be either a single valid skill, or a list of valid skills separated by `,`. 
 - Skills are case insensitive
 
+#### Valid skills:
+The following are all current skills: `alchemism`, `armouring`, `cooking`, `jeweling`, `scribing`, `tailoring`, `weaponsmithing`, `woodworking`
+
 {% sample lang="v2" %}
 ```js
 {

@@ -11,6 +11,9 @@ GET /recipe/get/{name}
 ```
 Returns a [Recipe Object](#recipe-object), which details public statistical information about the recipe.
 
+#### Valid recipes
+The following are all current recipe types: `boots`, `bow`, `bracelet`, `chestplate`, `dagger`, `food`, `helmet`, `leggings`, `necklace`, `potion`, `relik`, `ring`, `scroll`, `spear`, `wand`
+
 {% sample lang="v2" %}
 #### Response
 ```js
