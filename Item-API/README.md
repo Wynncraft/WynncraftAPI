@@ -60,6 +60,9 @@ Returns a list of Wynncraft items matching the search name. The name is case ins
 | manaSteal | Number | (Identification) Amount of mana ||
 | xpBonus | Number | (Identification) Percentage XP bonus ||
 | lootBonus | Number | (Identification) Percentage loot bonus ||
+| lootQuality | Number | (Identification) Percentage loot quality ||
+| gatherXpBonus | Number | (Identification) Percentage gatheringxp bonus ||
+| gatherSpeed | Number | (Identification) Percentage gathering speed bonus ||
 | reflection | Number |  (Identification) Percentage reflection modifier ||
 | strengthPoints | Number | (Identification) Strength points provided by this item ||
 | dexterityPoints | Number | (Identification) Dexterity points provided by this item ||
@@ -73,9 +76,13 @@ Returns a list of Wynncraft items matching the search name. The name is case ins
 | poison | Number | (Identification) Percentage poison modifier ||
 | healthBonus | Number | (Identification) Health modifier |Unlike `health`, this is a identification, rather than being set|
 | soulPoints | Number | (Identification) Percentage chance to regenerate an additional soul point ||
+| sprint | Number | (Identification) Additional Sprint in % ||
+| sprintRegen | Number | (Identification) Additional Sprintregen in % ||
+| jumpHeight | Number | (Identification) Additional Jumpheight ||
 | emeraldStealing | Number | (Identification) Percentage bonus chance to steal an emerald on hit ||
 | healthRegenRaw | Number | (Identification) Bonus to health regeneration ||
 | spellDamageRaw | Number | (Identification) Bonus to spell damage ||
+| rainbowSpellDamageRaw | Number | (Identification) Rainbowbonus to spell damage ||
 | damageBonusRaw | Number | (Identification) Bonus to melee damage ||
 | bonusFireDamage | Number | (Identification) Percentage bonus to fire damage ||
 | bonusWaterDamage | Number | (Identification) Percentage bonus to water damage ||
@@ -135,24 +142,36 @@ All fields in the item object marked with '(Identification)' are identifications
             "healthRegen": Number,
             "manaRegen": Number,
             "spellDamage": Number,
+	    "rainbowSpellDamageRaw": Number,
             "damageBonus": Number,
             "lifeSteal": Number,
             "manaSteal": Number,
+	    "spellCostPct1": Number,
+	    "spellCostRaw1": Number,
+	    "spellCostPct2": Number,
+	    "spellCostRaw2": Number,	    
+	    "spellCostPct3": Number,
+	    "spellCostRaw3": Number,	    
+	    "spellCostPct4": Number,
+	    "spellCostRaw4": Number,
+	    "thorns": Number,
+	    "reflection": Number,
+	    "attackSpeedBonus": Number,
+	    "exploding": Number,
+	    "soulPoints": Number,
+	    "sprint": Number,
+	    "sprintRegen":Number,
+	    "jumpHeight":Number,
             "xpBonus": Number,
             "lootBonus": Number,
-            "reflection": Number,
             "strengthPoints": Number,
             "dexterityPoints": Number,
             "intelligencePoints": Number,
             "agilityPoints": Number,
             "defensePoints": Number,
-            "thorns": Number,
-            "exploding": Number,
             "speed": Number,
-            "attackSpeedBonus": Number,
             "poison": Number,
-            "healthBonus": Number,
-            "soulPoints": Number,
+            "healthBonus": Number,            
             "emeraldStealing": Number,
             "healthRegenRaw": Number,
             "spellDamageRaw": Number,
